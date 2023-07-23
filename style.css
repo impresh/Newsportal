@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.header{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header ul li{
+    display: inline-block;
+
+}
+.header ul li a{
+    color: black;
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.header ul li a:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+.button{
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button:hover{
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.hero{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.hero1{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    gap: 20px;
+}
+.box2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2 a{
+    color: black;
+    text-decoration: none;
+}
+.breaking{
+    height: auto;
+    padding: 20px;
+}
+.breaking h1{
+    padding: 20px;
+}
+.breakingnews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.breakingnews a{
+    text-decoration: none;
+    color:black;
+}
+.breakingnews img{
+    border-radius: 20px;
+}
+.breaking div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.breakingnews h2{
+    color: red;
+}
+.breakingnews h2:hover{
+    color: cadetblue;
+
+}
+.sportst{
+    border-bottom: 1px solid grey;
+}
+.sports h1{
+    padding: 20px;
+ }
+ 
+ .latestgridd{
+     padding: 20px;
+     display: grid;
+     justify-content:center;
+     grid-template-columns: 1fr 1fr 1fr ;
+     font-size: 15px;
+     gap: 20px;
+}
+ .latestgridd a{
+     text-decoration: none;
+     color: black;
+}
+ .latestgridd a:hover{
+ color: cadetblue;
+}
+
+.politics h1{
+   padding: 20px;
+}
+
+.politicsgrid{
+    padding: 20px;
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    gap: 40px;
+}
+.politicsgrid a{
+    text-decoration: none;
+    color: black;
+}
+.politicsgrid a:hover{
+color: cadetblue;
+}
+.politicsgrid img{
+    max-height: 240px;
+    border-radius: 20px;
+}
+.ad{
+    background-color: #dfd9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mostread{
+    height: auto;
+    margin: 20px;
+}
+.mostread h1{
+    border-bottom:1px solid black;
+    padding: 20px ;
+
+}
+.mostread ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.mostread ul li a{
+    color: black;
+    font-size: 20px;
+    display: grid;
+}
+.mostread ul li a:hover{
+    color: orangered;
+}
+
+
+.footer{
+    background-color:#4c4c4c;
+    height: auto;
+    width: auto;
+}
+.footer h2{
+    padding: 40px ;
+    color: darkgray;
+    text-align: center;
+}
+.items{
+    text-decoration: none;
+    padding: 40px;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+
+}
+.items ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    
+}
+.items ul li:hover{
+    border-bottom: 2px solid orangered;
+}
+.items ul li a{
+    color: skyblue;
+}
+.items ul li a:hover{
+    color: darkgray;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+}
+@media only screen and (max-width:800px) {
+    .hero1 {
+        width: 80%;
+        padding: 0;
+      }
+      .hero {
+        width: 100%;
+      }
+    }
