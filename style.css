@@ -12,11 +12,15 @@
     align-items: center;
     
 }
+.header img{
+    border-radius: 50%;
+}
 .header ul li{
     display: inline-block;
 
 }
 .header ul li a{
+    font-size: 20px;
     color: black;
 }
 li a{
@@ -46,11 +50,15 @@ li a{
     font-weight: bolder;
 }
 .hero{
+    margin: 30px;
     padding: 20px;
     border-bottom: 1px solid grey;
 
 }
-
+.hero h1{
+    color: green;
+    padding: 20px;
+}
 .hero1{
     display: flex;
     padding: 20px;
@@ -64,16 +72,21 @@ li a{
     justify-content: center;
     align-items: center;
 }
+.box2 h1{
+    color: black;
+}
 .box2 a{
     color: black;
     text-decoration: none;
 }
 .breaking{
+    margin: 30px;
     height: auto;
     padding: 20px;
 }
 .breaking h1{
-    padding: 20px;
+    color: green;
+    padding: 10px;
 }
 .breakingnews{
     display: flex;
@@ -85,6 +98,7 @@ li a{
 .breakingnews a{
     text-decoration: none;
     color:black;
+    font-size: 14px;
 }
 .breakingnews img{
     border-radius: 20px;
@@ -101,11 +115,15 @@ li a{
     color: cadetblue;
 
 }
-.sportst{
+.sports{
+    margin: 30px;
     border-bottom: 1px solid grey;
+    padding-bottom: 30px;
 }
 .sports h1{
+    color: green;
     padding: 20px;
+    font-size: 30px;
  }
  
  .latestgridd{
@@ -123,9 +141,13 @@ li a{
  .latestgridd a:hover{
  color: cadetblue;
 }
-
+.politics{
+    margin: 30px;
+}
 .politics h1{
    padding: 20px;
+   color: green;
+   font-size: 30px;
 }
 
 .politicsgrid{
@@ -155,11 +177,13 @@ color: cadetblue;
 }
 .mostread{
     height: auto;
-    margin: 20px;
+    margin: 35px;
 }
 .mostread h1{
     border-bottom:1px solid black;
     padding: 20px ;
+    font-size: 30px;
+    color: green;
 
 }
 .mostread ul{
