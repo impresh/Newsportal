@@ -1,0 +1,92 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1 img{
+    height: 500px;
+    width: 100%;
+}
+.breaking{
+    text-align: center;
+}
+.breaking div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.breakingnews img{
+    height: 200px;
+    width: auto;
+}
+.sports{
+    text-align: center;
+}
+.latestgridd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.politics{
+    text-align: center;
+}
+.politicsgrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ad img{
+    width: 300px;
+}
+.mostread{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mostread ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .mostread ul li a{
+    font-size: 10px;
+} */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.items ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
